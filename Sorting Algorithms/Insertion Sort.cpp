@@ -1,6 +1,6 @@
-void insert(int arr[], int i)
+void insert(int arr[], int n)
 {
-    for(int x=1; x<=i; x++)
+    for(int x=1; x<=n; x++)
     {
         int key=arr[x];
         int y=x-1;
