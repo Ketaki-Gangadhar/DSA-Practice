@@ -1,6 +1,6 @@
 void insert(int arr[], int n)
 {
-    for(int x=1; x<=n; x++)
+    for(int x=1; x<n; x++)
     {
         int key=arr[x];
         int y=x-1;
@@ -9,7 +9,6 @@ void insert(int arr[], int n)
             arr[y+1]=arr[y];
             y--;
         }
-        arr[y+1]=key;
-      
+        arr[y+1]=key;    
     }
 }
